@@ -4,5 +4,5 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface MediaRepository extends CrudRepository<MediaEntity, Long> {
+public interface MediaEntityRepository extends CrudRepository<MediaEntity, Long> {
 }
